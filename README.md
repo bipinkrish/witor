@@ -1,8 +1,21 @@
-# witor
+<p align="center"><img src="assets/witor.png" width="88" height="88" alt="witor app icon"></p>
+<h1 align="center">witor</h1>
 
 witor checks the Wi-Fi connection on the device running the app. Run **Check connection**, then open **Check report** to see the measured link, findings and suggested fixes. Run it again after moving the device or changing a setting to compare checks for the same access point.
 
 The Android application ID, Apple bundle ID and Linux application ID are `io.github.bipinkrish.witor`.
+
+## Screenshots
+
+![The witor home screen with the Check connection button](screenshots/home.png)
+
+| Diagnose a connection | Compare two checks |
+| --- | --- |
+| ![Check report showing legacy wireless mode and other findings](screenshots/report.png) | ![Before and after chart showing the Wi-Fi link rate rising from 86 to 115 Mbps](screenshots/before-and-after.png) |
+
+On Android, the guided view keeps the instructions above the router’s own controls. These two steps use the Dragon Path field measurements and a sample router page.
+
+<img src="screenshots/guided-steps.png" width="620" alt="Two Android screens guiding the owner through wireless mode and channel width settings">
 
 ## Run from this folder
 
@@ -45,4 +58,4 @@ flutter build apk --debug
 flutter build linux --release
 ```
 
-Tests cover the [Dragon Path field measurements](test/fixtures/dragon_path_707gr1.json), channel selection, history, export, router request pacing and rollback. The integration test runs a check through the host platform plugin and opens its report. Platform builds in GitHub Actions use their respective host toolchains.
+Tests cover the [Dragon Path field measurements](test/fixtures/dragon_path_707gr1.json), channel selection, history, export, router request pacing and rollback. The integration test runs a check through the host platform plugin and opens its report.
