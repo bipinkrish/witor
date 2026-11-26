@@ -1,0 +1,24 @@
+{
+  "model": "Dragon Path 707GR1",
+  "firmware": "V01.00.01_152",
+  "server": "Boa/0.93.15",
+  "timingNote": "Only the measurement date was recorded. Timestamps represent the order of the checks.",
+  "before": {
+    "time": "2026-11-25T00:00:00Z",
+    "network": "Wi-Fi",
+    "link": {"band": "2.4 GHz", "channel": 3, "width": 20, "rssi": -50, "txRate": 86},
+    "metrics": {"down": 72, "up": 44},
+    "routerRadios": [
+      {"Wireless mode": "2.4 GHz B+G+N", "Configured width": "40 MHz", "Configured channel": "Auto", "Security": "WPA2 Mixed", "TKIP": "Enabled", "AES": "Enabled"}
+    ]
+  },
+  "after": {
+    "time": "2026-11-25T00:01:00Z",
+    "network": "Wi-Fi",
+    "link": {"band":"2.4 GHz", "channel":1, "width":20, "rssi":-55, "txRate":115},
+    "metrics": {"down":75, "up":51},
+    "routerRadios": [
+      {"Wireless mode":"2.4 GHz G+N", "Configured width":"20 MHz", "Configured channel":"1", "Security":"WPA2", "TKIP":"Disabled", "AES":"Enabled"}
+    ]
+  }
+}
