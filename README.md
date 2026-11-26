@@ -3,7 +3,16 @@
 
 witor checks the Wi-Fi connection on the device running the app. Run **Check connection**, then open **Check report** to see the measured link, findings and suggested fixes. Run it again after moving the device or changing a setting to compare checks for the same access point.
 
-The Android application ID, Apple bundle ID and Linux application ID are `io.github.bipinkrish.witor`.
+## Download
+
+| Platform | Download |
+| --- | --- |
+| Android · most phones and tablets | [ARM64 APK](https://github.com/bipinkrish/witor/releases/download/v0.1.0/witor-0.1.0-android-arm64-v8a.apk) |
+| Android · older 32-bit ARM devices | [ARMv7 APK](https://github.com/bipinkrish/witor/releases/download/v0.1.0/witor-0.1.0-android-armeabi-v7a.apk) |
+| Android · x86-64 devices and emulators | [x86-64 APK](https://github.com/bipinkrish/witor/releases/download/v0.1.0/witor-0.1.0-android-x86_64.apk) |
+| Linux · Intel and AMD 64-bit | [Desktop bundle (.tar.gz)](https://github.com/bipinkrish/witor/releases/download/v0.1.0/witor-0.1.0-linux-x86_64.tar.gz) |
+
+Android 7.0 or newer is required. Install the APK for your device. The Linux bundle was tested on Ubuntu 24.04 x86-64. Extract the archive and run `./witor` inside the extracted folder. Keep the adjacent `lib` and `data` directories together with the executable. [Release notes and checksums](https://github.com/bipinkrish/witor/releases/tag/v0.1.0)
 
 ## Screenshots
 
